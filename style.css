@@ -112,10 +112,9 @@ img {
 }
 
 .logo,
-.menu-list>li,
 .header-mail,
 .header-tel {
-    padding: 32px 0;
+    padding: 24px 0 25px;
 }
 
 header .container {
@@ -181,8 +180,7 @@ header .container {
 
 .header-link {
     display: flex;
-    margin-left: 331px;
-    padding: 32px 0;
+    margin-left: 331px;   
 }
 
 .header-link li:not(:last-child) {
@@ -409,24 +407,25 @@ header .container {
 }
 
 .portfolio-wrap {
-    padding: 20px 0 0 24px ;
+    padding: 20px 24px ;
     border:1px solid #EEEEEE;
     border-top-width:0;   
 }
 
-.portfolio-description {   
+.portfolio-description {  
+    width: 321px; 
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;    
     color: var(--portfolio-description-color);
+    
 }
 
 .portfolio-text {     
     font-size: 16px;
     line-height: 1.87;  
-    color:var(--portfolio-text-color);
-    margin-bottom: 4px;
+    color:var(--portfolio-text-color);    
 }
 
 
