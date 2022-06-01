@@ -113,7 +113,8 @@ img {
 
 .logo,
 .header-mail,
-.header-tel {
+.header-tel,
+.menu-link {
     padding: 24px 0 25px;
 }
 
@@ -413,7 +414,6 @@ header .container {
 }
 
 .portfolio-description {  
-    width: 321px; 
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
